@@ -1,0 +1,67 @@
+body {
+	background-image: url("images/background.jpg"), url("images/background2.jpg");
+	background-color: #cccccc;
+   }
+   
+
+
+.titlu1 {
+  color: red;
+}
+bcenter{
+	
+		border: 1px solid;
+		padding: 10px;
+		box-shadow: 5px 10px 18px red;
+}
+.titlu2 {
+  color: green;
+}
+
+.myButton {
+	box-shadow: 0px 1px 0px 0px #f0f7fa;
+	background:linear-gradient(to bottom, #33bdef 5%, #019ad2 100%);
+	background-color:#33bdef;
+	border-radius:6px;
+	border:1px solid #057fd0;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:13px 38px;
+	text-decoration:none;
+	text-shadow:0px -1px 0px #5b6178;
+}
+#content{width:675px; position:relative; clear:both; margin: 0 auto}
+
+
+#rightPan{width:195px; float:right; margin:15px 0 0 0; display:inside; margin-right: 130px;
+}
+	#leftPan{width:195px; float:center; margin:15px 0 0 0; display:inside; margin-left: 300px;
+		display:flex ;}
+	
+
+	
+ 
+
+#news{margin-bottom:10px}
+#news h2{height:21px; position:relative; background:url(images/h_news.gif) 0 0 no-repeat; margin-bottom:10px}
+#news p{margin-bottom:20px}
+
+#shows h2{height:21px; position:relative; background:url(../images/h_shows.gif) 0 0 no-repeat; margin-bottom:10px}
+#shows p span{display:block; margin-bottom:10px; padding-top:3px}
+
+.clear#end{height:20px}
+#header{ width:775px; height:201px; position:relative; background:url(images/b_header.jpg) 0 0 no-repeat}
+#header img#logo{position:absolute; top:72px; left:88px}
+.myButton:hover {
+	background:linear-gradient(to bottom, #019ad2 5%, #33bdef 100%);
+	background-color:#019ad2;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
